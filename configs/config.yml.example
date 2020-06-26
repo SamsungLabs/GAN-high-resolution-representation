@@ -1,0 +1,6 @@
+BASE_DIR: "experiments/ffhq_hair"
+GAN: "ffhq"
+GAN_DIR: "stylegan2-models"
+GAN_GPU_IDS: [0]
+SOLVER_GPU_IDS: [0]
+ANNOTATION: 'segmentation'

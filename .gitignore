@@ -1,0 +1,5 @@
+stylegan2-models/*.tar
+experiments/*
+configs/*.yml
+*.idea
+__pycache__

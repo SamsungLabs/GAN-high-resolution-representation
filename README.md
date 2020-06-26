@@ -1,4 +1,4 @@
-# Teaching GAN to generate per-pixel annotation
+# Learning High-Resolution Domain-Specific Representations with a GAN Generator
 
 ![](readme-images/GAN-vis.gif)
 
@@ -14,9 +14,9 @@ cd GAN-segmentation
 pip3 install -r requirements.txt
 ```
 
-- Download [stylegan-models](https://drive.google.com/open?id=1vP2zUZ9NSJDFy2cc8b2mGp7MINyPW46X) converted to pytorch and unzip archive to `stylegan2-models` directory.
+- Download [stylegan-models](https://drive.google.com/open?id=1uCAo0X1kdXM9wPmt_gcdnpmUDPGmACkx) converted to pytorch and unzip archive to `stylegan2-models` directory.
 
-### - Download [annotated samples](https://drive.google.com/open?id=143dRAyJcRDqygepSz8lIr8ElAnwF3xp_) and unzip archive to `experiments` directory to reproduce experiment with FFHQ hair segmentation.
+- Download [annotated samples](https://drive.google.com/open?id=143dRAyJcRDqygepSz8lIr8ElAnwF3xp_) and unzip archive to `experiments` directory to reproduce experiment with FFHQ hair segmentation.
 
 Be sure that your project structure is 
 ```
@@ -27,7 +27,7 @@ Be sure that your project structure is
     │   |   ├── checkpoints
     |   |   ├── data
     |   |   └── dataset
-    │   lib
+    ├── lib
     ├── stylegan-models
     │   ├── cars.params
     |   └── ffhq.tar

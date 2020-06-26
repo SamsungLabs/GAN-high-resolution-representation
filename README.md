@@ -26,10 +26,10 @@ Be sure that your project structure is
     │   ├── ffhq-hair
     │   |   ├── checkpoints
     |   |   ├── data
-    |   |   └── dataset
+    |   |   └── generated
     ├── lib
     ├── stylegan-models
-    │   ├── cars.params
+    │   ├── cars.tar
     |   └── ffhq.tar
     └── ...
 ```

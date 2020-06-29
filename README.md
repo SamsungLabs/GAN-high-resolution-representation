@@ -1,6 +1,6 @@
 # Learning High-Resolution Domain-Specific Representations with a GAN Generator
 
-![](readme-images/GAN-vis.gif)
+![](readme-images/GAN-animation-reduced.gif)
 
 This repository contains the pytorch implementation for the method described in the paper:
 

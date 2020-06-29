@@ -1,6 +1,8 @@
 # Learning High-Resolution Domain-Specific Representations with a GAN Generator
 
-![](readme-images/GAN-animation-reduced.gif)
+<p align="center">
+  <img src="./readme-images/GAN-animation-reduced.gif" alt="drawing" width="70%"/>
+</p>
 
 This repository contains the pytorch implementation for the method described in the paper:
 
@@ -9,7 +11,7 @@ Representations with a GAN Generator**<br>
 > [Danil Galeev](https://github.com/denemmy),
 > [Konstantin Sofiiuk](https://github.com/ksofiyuk),
 > [Danila Rukhovich](https://github.com/filaPro),
-> [Michael Romanov] (https://github.com/RomanovMikeV),
+> [Michael Romanov](https://github.com/RomanovMikeV),
 > [Olga Barinova](https://github.com/OlgaBarinova),
 > [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ)
 > <br>

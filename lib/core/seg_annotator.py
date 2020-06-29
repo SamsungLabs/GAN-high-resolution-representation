@@ -342,8 +342,8 @@ class SegmentationAnnotator(tk.Frame):
                 feature_name = f'feat_{i:06d}.pickle'
 
                 mask = np.zeros((probs.shape[1], probs.shape[2], 1), dtype=np.uint8)
-                # mask[probs[1] > 0.999] = 255
-                mask[probs[1] < 0.001] = 128
+                mask[probs[1] > 0.85] = 255
+                mask[probs[1] < 0.01] = 128
 
                 cv2.imwrite(join(dst_dir, imname), img[:,:,::-1])
                 cv2.imwrite(join(dst_dir, maskname), mask[:,:,0])
